@@ -1,7 +1,7 @@
+--no-cache-dir
 fastapi
 uvicorn
 faiss-cpu
-google-generativeai
 python-dotenv
 PyMuPDF
 python-docx
