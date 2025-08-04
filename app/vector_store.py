@@ -4,7 +4,7 @@ from typing import List, Tuple
 from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 class FAISSVectorStore:
     def __init__(self):
